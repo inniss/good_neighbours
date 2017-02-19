@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Good Neighbours</title>
+<link rel="stylesheet" type="text/css" media="screen" href="styles/jquery-ui-1.8.16.custom.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="styles/jQuery.iPicture.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="styles/styles.css" />
+<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.16.custom.min.js"></script>
+<script type="text/javascript" src="js/jQuery.iPicture.js"></script>
+</head>
+
+<body>
+<div class="wrap">
+	<div class="header">
+		<ul class="sign-list">
+			<li><a href="#">Join</a></li>
+			<li><a href="#">Sign In</a></li>
+		</ul>
+		<h1><a href="#"><img src="images/gradient-title.png" alt="Good Neighbours Active Living Centre" /></a></h1>
+		<ul class="nav-list">
+			<li class="active-link"><a href="#">Home</a></li>
+			<li><a href="#">Programs</a></li>
+			<li><a href="#">Special Events</a></li>
+			<li><a href="#">Membership</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+		<div id="iPicture">
+			<div id="picture1" class="ipicture-image"></div>
+		</div>
+	</div>
+    <div class="content">
+		<h2>Welcome</h2>
+		<div class="welcome-block">
+			<img src="images/sport-foto.jpg" alt="Foto" />
+			<p>Good Neighbours Active Living Centre is a non-profit, charitable organization that provides opportunities for older adults 55+ to stay active, connected to the community and to meet new friends.</p>
+			<p>Good Neighbours Active Living Centre has been conveniently located at 720 Henderson Highway since July of 2009.  This brand newfacility includes a full gym, multi-purpose room, creative arts studio, computer lab, HobNobs Café and a used bookstore.  We offer fitness and educational opportunities, recreational programs, outings, and a variety of volunteer opportunities.</p>
+			<p>Come by and see us Monday – Friday, 9:00 a.m. – 4:00 p.m.  Our volunteer host/hostess will be happy to show you around!</p>
+			<span>Good Neighbours. Good Friends. Good Fun!</span>
+			<a href="#">GO to Read More About Us</a>
+		</div>
+		<h3>Latest Buzz</h3>
+		<div class="lbuzz-block">
+			<p>Supports to Seniors Coordinator Leza Mondaca is expecting her first child in early August.  Congratulations Leza!  We hope to have a new Supports to Seniors Coordinator hired for early September.</p>
+			<p>Good Neighbours Used Bookstore has found a temporary, possibly permanent new home.  It is located at 720 Henderson Highway in our Games Room.  Pick up your summer reads at great prices!  Hours of operation are Monday, 1:00 – 4:00 p.m. and Tuesday to Friday, 10:00 a.m. – 4:00 p.m.</p>
+			<a href="#">GO to Read More Buzz</a>
+		</div>
+	</div>
+	<div class="sidebar">
+		<ol class="news-list">
+			<li>
+				<h4>Mission Statement</h4>
+				<div class="sidebars-block">
+					<p>Good Neighbours Active Living Centre Inc. provides programs, services and opportunities for social interaction that enhance the quality of life for individuals ages 55 and older.</p>
+				</div>
+			</li>
+			<li>
+				<h4>Next Event</h4>
+				<div class="sidebars-block">
+					<span>apr 16</span>
+					<a href="#">Lorem ipsum dolor sit amet</a>
+					<p class="event-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</li>
+			<li>
+				<h4>Recent Events</h4>
+				<div class="sidebars-block">
+					<ul>
+						<li>
+							<span>mar 18</span>
+							<a href="">Lorem ipsum dolor sit amet</a>
+						</li>
+						<li>
+							<span>mar 3</span>
+							<a href="">Sed ut perspiciatis unde omnis iste natus</a>
+						</li>
+						<li>
+							<span>feb 24</span>
+							<a href="">error sit voluptatem accusantium doloremque laudantium</a>
+						</li>
+					</ul>
+				</div>
+			</li>
+		</ol>
+		<a class="events-link" href="#">GO to EVENTS</a>
+		<a class="donate-link" href="#"></a>
+	</div>
+</div>
+<div class="footer">
+	<div>
+		<span>&copy; 2011 Good Neighbours Active Living Centre</span>
+		<address>Ph: (204) 669-1710 Ext. 223<br />Fax: (204) 661-0750<br />Email: <a href="#">volunteer@gnalc.ca</a></address>
+	</div>
+</div>
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		$( "#iPicture" ).iPicture({
+			animation: true,
+			animationBg: "bgblack",
+			animationType: "ltr-slide",
+			pictures: ["picture1"],
+			button: "moregreen",
+			moreInfos:{"picture1":[{"id":"tooltip1","descr":"fresh air","top":"62px","left":"175px"},{"id":"tooltip2","descr":"comfortable houses","top":"318px","left":"198px"},{"id":"tooltip3","descr":"a great resting place","top":"300px","left":"575px"},{"id":"tooltip4","descr":"beautiful nature","top":"437px","left":"370px"}]}
+		});
+	});
+</script>
+</body>
+</html>
